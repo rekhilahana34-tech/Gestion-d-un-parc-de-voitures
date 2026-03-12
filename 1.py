@@ -30,3 +30,4 @@ class Parc:
         return self.capacite - len(self.listeVoitures)
 parc1 = Parc(1, "Montreal",2)
 v1 = Voiture("Toyota" , "Corolla")
+parc1.entrerVoiture(v1)
