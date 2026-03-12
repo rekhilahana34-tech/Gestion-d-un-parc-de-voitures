@@ -31,3 +31,4 @@ class Parc:
 parc1 = Parc(1, "Montreal",2)
 v1 = Voiture("Toyota" , "Corolla")
 parc1.entrerVoiture(v1)
+parc1.sortirVoiture(v1)
