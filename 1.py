@@ -18,3 +18,10 @@ class Parc:
             return
         self.listeVoitures.append(voiture)
         print("voiture entrée")
+
+    def sortirVoiture(self, voiture):
+        if voiture in self.listeVoitures:
+            self.listeVoitures.remove(voiture)
+            print("voiture sortie")
+        else:
+            print("voiture non trouvée")
